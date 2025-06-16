@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #ff7b00;
+    --secondary-color: #f5f5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 300;
+	line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.container {
+    max-width: 1164px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 380px;
+    height: 100%;
+    padding: 22px 30px;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.clicked {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.highlightText {
+    color: var(--primary-color);
+}
+
+.boldText {
+    font-weight: 800;
+}
+
+.italicText {
+    font-style: italic;
+}
+
+/* NavBar */
+.navbar {
+    height: 100px;
+    background-color: var(--secondary-color);
+}
+
+.navbar ul li {
+    margin-right: 60px;
+}
+
+.navbar ul li:hover {
+    border-bottom: var(--primary-color) 4px solid;
+}
+
+/* Showcase */
+.showcase {
+    height: 800px;
+    margin: 20px 0;
+}
+
+.showcase img {
+    height: 560px;
+}
+
+.showcase-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.showcase-text h1 {
+    font-size: 12rem;
+    font-weight: 600;
+}
+
+.showcase-text h3 {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+/* Box Office */
+
+#boxoffice {
+    background-color: var(--secondary-color);
+    height: 750px;
+    padding: 40px 0;
+}
+
+#boxoffice h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+#boxoffice h4 {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+#boxoffice .boxofficelist {
+    background-color: #fff;
+    width: 380px;
+    height: 350px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#boxoffice .boxofficelist .flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#boxoffice .boxofficelist ul li {
+    font-size: 1.4rem;
+}
+
+#boxoffice .boxofficelist .btn-bottom {
+    border: 0px;
+}
+
+#boxoffice .boxofficeitem h3 {
+    font-size: 1.4rem;
+}
+
+#boxoffice .boxofficeitem img {
+    width: 550px;
+    height: 300px;
+    margin: 20px 0;
+}
+
+#boxoffice .boxofficeitem p {
+    font-size: 1.2rem;
+}
+
+/* Critic's Choice */
+
+#criticschoice {
+    height: 750px;
+    padding: 40px 0;
+}
+
+#criticschoice h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+#criticschoice h4 {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    text-align: right;
+}
+
+#criticschoice .grid {
+    gap: 200px;
+}
+
+#criticschoice .criticschoicelist {
+    background-color: #fff;
+    width: 380px;
+    height: 350px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#criticschoice .criticschoicelist .flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#criticschoice .criticschoicelist ul li {
+    font-size: 1.4rem;
+}
+
+#criticschoice .criticschoicelist .btn-bottom {
+    border: 0px;
+}
+
+#criticschoice .criticschoiceitem .quote {
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+#criticschoice .criticschoiceitem h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+#criticschoice .criticschoiceitem img {
+    width: 550px;
+    margin: 20px 0;
+}
+
+#criticschoice .criticschoiceitem p {
+    font-size: 1.2rem;
+}
+
+/* Upcoming Releases */
+
+#upcomingreleases {
+    background-color: var(--secondary-color);
+    height: 750px;
+    padding: 40px 0;
+}
+
+#upcomingreleases h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#upcomingreleases h4 {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#upcomingreleases .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+#upcomingreleases .releaseitem {
+    background-color: #fff;
+    width: 300px;
+    height: 420px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#upcomingreleases .releaseitem:hover {
+    cursor: pointer;
+    border: 4px solid rgba(255, 123, 0, 0.5);
+}
+
+#upcomingreleases .releaseitem img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+#upcomingreleases .releaseitem h4 {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#upcomingreleases .flex {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Footer */
+
+footer {
+    height: 300px;
+}
+
+footer .container h3 {
+    font-size: 2rem;
+}
+
+footer .contactlist h3 {
+    border-bottom: 6px solid var(--primary-color);
+    margin-bottom: 20px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hindi Cinema Guide</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h2 class="logo">HCG</h2>
+            <nav>
+                <ul class="flex">
+                    <li><a href="#boxoffice">Box Office</a></li>
+                    <li><a href="#criticschoice">Critic's Choice</a></li>
+                    <li><a href="#upcomingreleases">Upcoming Releases</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container flex">
+            <div class="showcase-text flex">
+                <h1>2025</h1>
+                <div>
+                    <h3>The <span class="highlightText">Hindi</span> Cinema Guide</h3>
+                </div>
+            </div>
+            <img src="images/chaava_poster.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Box Office -->
+    <section id="boxoffice">
+        <div class="container">
+            <h2>Box Office</h2>
+            <h4>A list of the top 5 <span class="highlightText italicText">highest grossing</span> Hindi films in 2025</h4>
+            <div class="grid">
+                <div class="boxofficelist">
+                    <ul class="flex">
+                        <li><div id="Chhaava" class="btn clicked" onClick="changeText('Chhaava', 'bo')">Chhaava</div></li>
+                        <li><div id="Raid2" class="btn" onClick="changeText('Raid2', 'bo')">Raid 2</div></li>
+                        <li><div id="Sikandar" class="btn" onClick="changeText('Sikandar', 'bo')">Sikandar</div></li>
+                        <li><div id="SkyForce" class="btn" onClick="changeText('SkyForce', 'bo')">Sky Force</div></li>
+                        <li><div id="Kesari" class="btn btn-bottom" onClick="changeText('Kesari', 'bo')">Kesari Chapter 2</div></li>
+                    </ul>
+                </div>
+                <div class="boxofficeitem">
+                    <h3 id="collection">Worldwide Collection: <span class="boldText">₹797.34cr</span></h3>
+                    <img id="boimg" src="images/chaava_poster2.jpg" alt="">
+                    <p id="director"><span class="boldText">Director:</span> Laxman Utekar</p>
+                    <p id="actors"><span class="boldText">Actors:</span> Vicky Kaushal, Akshaye Khanna, Rashmika Madanna</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Critic's Choice -->
+     <section id="criticschoice">
+        <div class="container">
+            <h2>Critic's Choice</h2>
+            <h4>A list of the top 5 <span class="highlightText italicText">most critically acclaimed</span> Hindi films in 2025</h4>
+            <div class="grid">
+                <div class="criticschoiceitem">
+                    <div class="quote"><h3 id="quote" class="italicText">"A tribute to the cinephile"</h3></div>
+                    <img id="ccimg" src="images/malegaon.jpg" alt="">
+                    <p id="ccdirector"><span class="boldText">Director:</span> Reema Kagti</p>
+                    <p id="ccactor"><span class="boldText">Actors:</span> Adarsh Gourav, Shashank Arora, Vineet Kumar Singh</p>
+                </div>
+                <div class="criticschoicelist">
+                    <ul class="flex">
+                        <li><div id="Malegaon" class="btn clicked" onClick="changeText('Malegaon', 'cc')">Superboys of Malegaon</div></li>
+                        <li><div id="Mehta" class="btn" onClick="changeText('Mehta', 'cc')">The Mehta Boys</div></li>
+                        <li><div id="Deva" class="btn" onClick="changeText('Deva', 'cc')">Deva</div></li>
+                        <li><div id="DhoomDhaam" class="btn" onClick="changeText('DhoomDhaam', 'cc')">Dhoom Dhaam</div></li>
+                        <li><div id="Chhaava2" class="btn btn-bottom" onClick="changeText('Chhaava2', 'cc')">Chhaava</div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Releases -->
+     <section id="upcomingreleases">
+        <div class="container">
+            <h2>Upcoming Releases</h2>
+            <h4>Most awaited films <span class="highlightText italicText">releasing soon!</span></h4>
+            <div class="grid">
+                <a href="https://www.youtube.com/watch?v=Wm2R3aJPY2M" target="_blank"><div class="releaseitem flex">
+                    <h4>Metro... In Dino</h4>
+                    <img src="images/metroindinon.jpg" alt="">
+                    <p><span class="boldText">Director:</span> Anurag Basu</p>
+                    <p><span class="boldText">Actors:</span> Konkona Sen Sharma, Aditya Roy Kapur, Pankaj Tripathi, etc.</p>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=iSOAOvIozDQ" target="_blank"><div class="releaseitem flex">
+                    <h4>Dhadak 2</h4>
+                    <img src="images/dhadak2.jpg" alt="">
+                    <p><span class="boldText">Director:</span> Shazia Iqbal</p>
+                    <p><span class="boldText">Actors:</span> Siddhant Chaturvedi, Triptii Dimri</p>
+                </div></a>
+                <a href="https://www.youtube.com/watch?v=dK1W-AViQ-M" target="_blank"><div class="releaseitem flex">
+                    <h4>War 2</h4>
+                    <img src="images/war2.jpg" alt="">
+                    <p><span class="boldText">Director:</span> Ayan Mukerji</p>
+                    <p><span class="boldText">Actors:</span> Hrithik Roshan, NTR Jr., Kiara Advani</p>
+                </div></a>
+            </div>
+        </div>
+     </section>
+
+     <!-- Footer -->
+     <footer>
+        <div class="container flex">
+            <div class="contactlist">
+                <h3>Contact Us</h3>
+                <p class="italicText">thefilmmakersvision@gmail.com</p>
+                <p class="italicText">@filmmakersvision</p>
+            </div>
+            <h3 class="highlightText italicText boldText">For more Hindi Cinema Guides...</h3>
+        </div>
+     </footer>
+
+     <script src="main.js"></script>
+</body>
+</html>
