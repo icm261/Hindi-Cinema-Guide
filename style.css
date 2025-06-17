@@ -327,3 +327,114 @@ footer .contactlist h3 {
     border-bottom: 6px solid var(--primary-color);
     margin-bottom: 20px;
 }
+
+@media (max-width:768px) {
+    .navbar ul li {
+        margin-left: 60px;
+        margin-right: 30px;
+    }
+
+    .showcase .flex {
+        flex-direction: column;
+    }
+
+    .showcase img {
+        height: 450px;
+    }
+
+    .showcase-text {
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .showcase-text h1 {
+        font-size: 10rem;
+        margin-bottom: 0;
+    }
+
+    .showcase-text h3 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    #boxoffice {
+        height: 100%;
+        padding: 40px 0;
+    }
+
+    #boxoffice .grid {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #boxoffice .boxofficelist {
+        justify-self: center;
+    }
+
+    #boxoffice .boxofficeitem {
+        margin-top: 30px;
+    }
+
+    #boxoffice .boxofficeitem img {
+        width: 450px;
+        height: 250px;
+        margin: 20px 0;
+    }
+
+    #criticschoice {
+        height: 100%;
+        padding: 40px 0;
+    }
+
+    #criticschoice .grid {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #criticschoice .criticschoiceitem {
+        margin-top: 30px;
+    }
+
+    #criticschoice .criticschoiceitem img {
+        width: 450px;
+        height: 250px;
+        margin: 20px 0;
+    }
+
+    #criticschoice .criticschoiceitem .quote {
+        width: 400px;
+    }
+
+    #criticschoice .criticschoicelist {
+        justify-self: center;
+    }
+
+    #upcomingreleases {
+        height: 100%;
+    }
+
+    #upcomingreleases .grid {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #upcomingreleases .releaseitem {
+        justify-self: center;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    footer .flex {
+        flex-direction: column;
+    }
+
+    footer .container h3 {
+        font-size: 1.3rem;
+    }
+}
