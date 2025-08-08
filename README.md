@@ -18,7 +18,7 @@ To install and run the site locally:
 
 1. Clone the repo
 ```
-git clone https://github.com/github_username/repo_name.git
+git clone https://github.com/icm261/Hindi-Cinema-Guide.git
 ```
 2. Open index.html in your browser
 
