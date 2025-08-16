@@ -184,6 +184,7 @@ a {
 #boxoffice .boxofficeitem img {
     width: 550px;
     height: 300px;
+    object-fit: contain;
     margin: 20px 0;
 }
 
@@ -304,6 +305,10 @@ a {
 #upcomingreleases .releaseitem h4 {
     font-weight: 700;
     font-size: 1.4rem;
+}
+
+#upcomingreleases .releaseitem p {
+    margin: 2px;
 }
 
 #upcomingreleases .flex {
