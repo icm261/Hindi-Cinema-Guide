@@ -1,6 +1,6 @@
 ## Hindi Cinema Guide
 
-The Hindi Cinema Guide is a single page website that displays information about key Hindi films from 2025, including the top five commercially successful films, the top 5 five critically successful films, and three of the most awaited upcoming releases.
+The Hindi Cinema Guide is not a single page website that displays information about key Hindi films from 2025, including the top five commercially successful films, the top 5 five critically successful films, and three of the most awaited upcoming releases.
 
 ![alt tag](/images/HCG_1.png)
 
